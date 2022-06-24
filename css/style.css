@@ -13,6 +13,10 @@ body {
 	margin: 0%;
 }
 
+header {
+	padding: 1em;
+}
+
 h1 {
 	font-size: 2em;
 	text-align: center;
@@ -30,7 +34,7 @@ h3 {
 
 /* # Classes */
 
-.aboutme {
+.centered_justify {
 	text-align: justify;
 	max-width: 50%;
 	margin-left: auto;
