@@ -5,7 +5,8 @@
 	src: url(../fonts/GidoleFont/Gidole-Regular.ttf);
 }
 
-html, body {
+html,
+body {
 	height: 100%;
 	width: 100%;
 }
@@ -37,6 +38,11 @@ h3 {
 	text-align: center;
 }
 
+a {
+	text-decoration: none;
+	color: purple;
+}
+
 /* # Classes */
 
 .centered_justify {
@@ -45,6 +51,15 @@ h3 {
 	margin-right: auto;
 }
 
-.centered_justify p {
-	text-align: center;
+.waffles {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-evenly;
+	gap: 1em;
+}
+
+.waffles a {
+	background-color: black;
+	border-radius: 1em;
+	padding: 1em;
 }
