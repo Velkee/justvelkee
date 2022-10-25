@@ -22,6 +22,6 @@ RUN npm i -g pnpm
 COPY --from=builder /src/build /src/build
 COPY --from=builder /src/package.json /src
 
-EXPOSE 3000
+EXPOSE 8080
 
 CMD ["pnpm", "run", "start"]
