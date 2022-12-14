@@ -19,6 +19,10 @@
 		<a href="/tasv">
 			<h3>T.A.S.V.</h3>
 		</a>
+
+		<a href="/praxisdb">
+			<h3>praxisDB</h3>
+		</a>
 	</div>
 </div>
 

@@ -1,5 +1,5 @@
 <header>
-	<h1>praxisDB</h1>
+	<h1>PraxisDB</h1>
 
 	<nav>
 		<a href="/">
